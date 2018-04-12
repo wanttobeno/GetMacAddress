@@ -1,0 +1,6 @@
+#pragma once
+#include <Windows.h>
+#include <string>
+
+// ipconfig /all√¸¡Ó
+BOOL GetMacByCmd(std::string& macOUT);
